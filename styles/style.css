@@ -7,5 +7,61 @@
 }
 
 body {
-    background-color: #000;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    width: 650px;
+    height: 250px;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    box-shadow: 6px -6px 8px #9d9d9d;
+    margin-top: 90px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: grid;
+    justify-content: center;
+}
+
+.img img{
+
+    width: 50px;
+    height: 50px;
+}
+
+#time{
+    display: block;
+    align-items: center;
+    font-size:40px;
+    margin: 20px;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.buttons  button{
+    width: 100px;
+   font-size: 20px;
+   margin: 0 30px;
+   padding: 5px 14px;
+   background-color: #2e80b3;
+   color: azure;
+   border-radius: 50px;
+   border: none;
+    box-shadow: 2px 2px 5px black;
 }
